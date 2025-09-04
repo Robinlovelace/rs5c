@@ -9,7 +9,7 @@ author:
   - name: Syu-Yu Wang
     affiliation: Leeds Institute for Transport Studies, University of Leeds, UK
     orcid: 0009-0001-8321-0438
-  - name: Caroline Tate
+  - name: Caroline Tait
     affiliation: Leeds Institute for Transport Studies, University of Leeds, UK
     orcid: TBC
   - name: Eugeni Vidal-Tortosa
