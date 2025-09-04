@@ -127,3 +127,60 @@ Credit: Rifki Wijaya
 Source: <https://oodavid.com/>
 
 ## References
+
+::: {#refs}
+:::
+
+## Appendix: Reproducible research
+
+Plug: try out the `stats19` R package, endorsed by the UK Department for Transport, to access and analyse STATS19 data.
+
+```{r}
+#| results: 'hide'
+#| echo: true
+pkgs = c("tidyverse", "stats19")
+pkgs_to_install = pkgs[!pkgs %in% installed.packages()[, "Package"]]
+if(length(pkgs_to_install)) install.packages(pkgs_to_install)
+library(tidyverse)
+library(stats19)
+```
+
+## Reproducing 2023 results
+
+Source: [gov.uk](https://www.gov.uk/government/statistics/reported-road-casualties-great-britain-annual-report-2023/reported-road-casualties-great-britain-annual-report-2023)
+
+![](images/paste-11.png)
+
+## In R:
+
+```{r}
+#| echo: true
+cas_2023 = get_stats19(year = 2023, type = "cas")
+table(cas_2023$casualty_severity)
+```
+
+```{r}
+cas_2024 = get_stats19(year = 2024, type = "cas")
+# names(cas_2024)
+# [1] "status"                             "collision_index"                   
+#  [3] "collision_year"                     "collision_reference"               
+#  [5] "vehicle_reference"                  "casualty_reference"                
+#  [7] "casualty_class"                     "sex_of_casualty"                   
+#  [9] "age_of_casualty"                    "age_band_of_casualty"              
+# [11] "casualty_severity"                  "pedestrian_location"               
+# [13] "pedestrian_movement"                "car_passenger"                     
+# [15] "bus_or_coach_passenger"             "pedestrian_road_maintenance_worker"
+# [17] "casualty_type"                      "casualty_home_area_type"           
+# [19] "casualty_imd_decile"                "lsoa_of_casualty"                  
+# [21] "enhanced_casualty_severity"  
+```
+
+```{r}
+table(cas_2024$casualty_severity)
+```
+
+## Plug: Data Science for Transport Planning Course
+
+Source: search for "Data science for transport planning" online to find the course
+
+![](images/paste-12.png)
