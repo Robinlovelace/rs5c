@@ -18,7 +18,7 @@
     "href": "slides.html#background",
     "title": "SUVs and pedestrian safety",
     "section": "Background",
-    "text": "Background\n\nSUVs are a status symbol (Dearman et al. 2023) and perceived as safer for occupants (Axsen and Long 2022).\nGlobal market share grew from 16% in 2010 to 48% in 2023 (International Energy Agency 2024).\nIn the UK, SUVs were 60% of new car sales in 2023 (Transport & Environment 2024).\nUS research shows SUVs increase risk to pedestrians (Henary et al. 2003; Ballesteros, Dischinger, and Langenberg 2004; Paulozzi 2005).\nThis study assesses the situation in Great Britain."
+    "text": "Background\n\nSUVs are a status symbol (Dearman et al. 2023) and perceived as safer for occupants (Axsen and Long 2022).\nGlobal market share grew from 16% in 2010 to 48% in 2023 (International Energy Agency 2024).\nIn the UK, SUVs were 60% of new car sales in 2023 (Transport & Environment 2024).\nUS research shows SUVs increase risk to pedestrians (Henary et al. 2003; Ballesteros, Dischinger, and Langenberg 2004; Paulozzi 2005).\nThis work provides some analysis and poses further research questions in Great Britain."
   },
   {
     "objectID": "slides.html#methods",
@@ -33,6 +33,13 @@
     "title": "SUVs and pedestrian safety",
     "section": "Model results",
     "text": "Model results\n\nPedestrians hit by SUVs are more likely to be seriously injured (RRR = 1.126) or killed (RRR = 1.204) compared to those hit by non-SUVs.\nVehicle mass is also a significant predictor of injury severity.\nSUV status is a better predictor than vehicle mass, width, or length alone."
+  },
+  {
+    "objectID": "slides.html#model-results-1",
+    "href": "slides.html#model-results-1",
+    "title": "SUVs and pedestrian safety",
+    "section": "Model results",
+    "text": "Model results"
   },
   {
     "objectID": "slides.html#discussion-and-conclusions",
