@@ -70,6 +70,13 @@
     "text": "Model results II"
   },
   {
+    "objectID": "slides.html#limitations-and-future-research",
+    "href": "slides.html#limitations-and-future-research",
+    "title": "SUVs and pedestrian safety",
+    "section": "Limitations and Future Research",
+    "text": "Limitations and Future Research\n\nThe binary SUV/non-SUV classification oversimplifies diversity of the vehicle fleet.\nThe STATS19 dataset lacks detailed vehicle design data, such as bumper height and front-end shape, which are likely key risk factors.\nThe study identifies increased risk but cannot fully explain the mechanisms (e.g., are SUV drivers more reckless, or is it purely vehicle design?).\nFocus on severity says little about frequency of collisions nor impacts on active travel/stress/willingness to use active/public modes\nFuture work should investigate which specific vehicle characteristics are most dangerous, how vehicle characteristics and driver behaviour affect other modes, and explore the role of marketing and driver behavior"
+  },
+  {
     "objectID": "slides.html#discussion-and-conclusions",
     "href": "slides.html#discussion-and-conclusions",
     "title": "SUVs and pedestrian safety",
