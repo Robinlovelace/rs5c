@@ -39,6 +39,31 @@ bibliography: references.bib
 -   US research shows SUVs increase risk to pedestrians [@henary2003; @ballesteros2004; @paulozzi2005].
 -   This work provides some analysis and poses further research questions in Great Britain.
 
+## Definitions of SUVs
+
+-   [**KIA (2019)**](https://reurl.cc/E6Gg5m)**:** "SUV stands for Sports Utility Vehicle, a car similar to a minivan or a station wagon, but with a much tougher look and a design suited for off-road driving."
+-   [**Lexus (2019)**](https://reurl.cc/qvknWy)**:** "SUV stands for Sports Utility Vehicle, a fairly loose term but one that generally refers to stylish, sleek looking vehicles that offer elegant city driving but also handle rugged terrain thanks to a typical 4x4 capability."
+-   [**Mitsubishi (2019)**](https://reurl.cc/myIR19)**:** "SUV stands for sport utility vehicle, a term generally applied to automobiles that combine the features of a passenger car, like plenty of passenger and cargo space, with aspects of an off-road vehicle."
+-   [**AutoTrader (2021)**](https://reurl.cc/vvkpNk)**:** "SUV is automotive jargon that stands for Sports Utility Vehicle. It refers to a type of car that sits high up, off the ground, and often has four-wheel drive and sturdy styling."
+
+## SUV models
+
+8 out of the top 10 best selling models were SUVs in 2024 ([SMMT](https://www.thecarexpert.co.uk/britains-best-selling-cars-of-2024/))
+
+![](images/paste-8.png)
+
+## SUV policies
+
+-   Policies to discourage large vehicles are emerging due to safety and environmental concerns.
+-   **Paris:** Voted to triple parking fees for vehicles over 1,600 kg (2,000 kg for electric), costing up to €18/hour in the city center [@europeancommission2024].
+-   **UK:** Considering a "weight malus" or surcharge on the vehicle excise duty (VED) for heavier new cars, similar to a policy in France [@palmer2024; @rodger2024].
+
+## Reforming UK car taxation
+
+![](images/paste-7.png)
+
+Source: [www.transportenvironment.org](https://www.transportenvironment.org/uploads/files/TE-briefing-UK-car-taxation-2024.pdf)[@palmer2024]
+
 ## Methods
 
 -   Data from STATS19 database on traffic casualties in Great Britain (2005-2022).
@@ -76,9 +101,21 @@ Relative Risk Ratios (RRR), relative to baseline outcome (slight), are calculate
 
 ## Discussion and Conclusions
 
--   The results confirm that SUVs are more dangerous for pedestrians in Great Britain, supporting findings from the USA.
--   This should motivate policy debates on vehicle size and road safety [@singh2024].
+-   The results imply SUVs are more dangerous for pedestrians in Great Britain, supporting findings from the USA.
+-   Motivate policy debates on vehicle size and road safety [@singh2024].
 -   Supports measures like increased parking fees for large vehicles [@europeancommission2024].
 -   Further research is needed on specific vehicle characteristics like bumper height.
+
+## Vehicle type in perspective
+
+![](images/paste-9.png)
+
+Credit: Rifki Wijaya
+
+## Towards joined-up vehicle tax/incentives policy for public health?
+
+![](images/paste-10.png)
+
+Source: <https://oodavid.com/>
 
 ## References
