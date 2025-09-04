@@ -31,25 +31,24 @@ execute:
 bibliography: references.bib
 ---
 
-
 ## Background
 
-- SUVs are a status symbol [@dearman2023] and perceived as safer for occupants [@axsen2022].
-- Global market share grew from 16% in 2010 to 48% in 2023 [@internationalenergyagency2024].
-- In the UK, SUVs were 60% of new car sales in 2023 [@transportenvironment2024].
-- US research shows SUVs increase risk to pedestrians [@henary2003; @ballesteros2004; @paulozzi2005].
-- This study assesses the situation in Great Britain.
+-   SUVs are a status symbol [@dearman2023] and perceived as safer for occupants [@axsen2022].
+-   Global market share grew from 16% in 2010 to 48% in 2023 [@internationalenergyagency2024].
+-   In the UK, SUVs were 60% of new car sales in 2023 [@transportenvironment2024].
+-   US research shows SUVs increase risk to pedestrians [@henary2003; @ballesteros2004; @paulozzi2005].
+-   This work provides some analysis and poses further research questions in Great Britain.
 
 ## Methods
 
-- Data from STATS19 database on traffic casualties in Great Britain (2005-2022).
-- 239 unique SUV models identified.
-- Multinomial logit model used to explore the relationship between risk factors and injury severity.
-- Outcomes: Fatal, Serious, or Slight injury.
+-   Data from STATS19 database on traffic casualties in Great Britain (2005-2022).
+-   239 unique SUV models identified.
+-   Multinomial logit model used to explore the relationship between risk factors and injury severity.
+-   Outcomes: Fatal, Serious, or Slight injury.
 
 # Results
 
----
+------------------------------------------------------------------------
 
 ```{r}
 #| label: fig-counts
@@ -59,15 +58,19 @@ knitr::include_graphics("fig1.png", error = FALSE)
 
 ## Model results
 
-- Pedestrians hit by SUVs are more likely to be seriously injured (RRR = 1.126) or killed (RRR = 1.204) compared to those hit by non-SUVs.
-- Vehicle mass is also a significant predictor of injury severity.
-- SUV status is a better predictor than vehicle mass, width, or length alone.
+-   Pedestrians hit by SUVs are more likely to be seriously injured (RRR = 1.126) or killed (RRR = 1.204) compared to those hit by non-SUVs.
+-   Vehicle mass is also a significant predictor of injury severity.
+-   SUV status is a better predictor than vehicle mass, width, or length alone.
+
+## Model results 
+
+![](images/paste-6.png)
 
 ## Discussion and Conclusions
 
-- The results confirm that SUVs are more dangerous for pedestrians in Great Britain, supporting findings from the USA.
-- This should motivate policy debates on vehicle size and road safety [@singh2024].
-- Supports measures like increased parking fees for large vehicles [@europeancommission2024].
-- Further research is needed on specific vehicle characteristics like bumper height.
+-   The results confirm that SUVs are more dangerous for pedestrians in Great Britain, supporting findings from the USA.
+-   This should motivate policy debates on vehicle size and road safety [@singh2024].
+-   Supports measures like increased parking fees for large vehicles [@europeancommission2024].
+-   Further research is needed on specific vehicle characteristics like bumper height.
 
 ## References
