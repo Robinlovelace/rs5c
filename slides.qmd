@@ -179,6 +179,10 @@ cas_2024 = get_stats19(year = 2024, type = "cas")
 table(cas_2024$casualty_severity)
 ```
 
+## Challenge: reproduce annual official statistical report on road safety
+
+![](images/paste-13.png)
+
 ## Plug: Data Science for Transport Planning Course
 
 Source: search for "Data science for transport planning" online to find the course
