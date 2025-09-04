@@ -56,13 +56,21 @@ bibliography: references.bib
 knitr::include_graphics("fig1.png", error = FALSE)
 ```
 
-## Model results
+## Model and headline results
+
+The probability of a particular crash $n$ resulting in a specific severity outcome $i$ is given by the following multinomial logit model:
+
+$$
+P_n(i) = \frac{\exp(\beta_i X_{in})}{\sum_{\forall I} \exp(\beta_I X_{In})}
+$$
+
+Relative Risk Ratios (RRR), relative to baseline outcome (slight), are calculated as $RRR = exp(X\beta_i)$.
 
 -   Pedestrians hit by SUVs are more likely to be seriously injured (RRR = 1.126) or killed (RRR = 1.204) compared to those hit by non-SUVs.
 -   Vehicle mass is also a significant predictor of injury severity.
 -   SUV status is a better predictor than vehicle mass, width, or length alone.
 
-## Model results 
+## Model results II
 
 ![](images/paste-6.png)
 
