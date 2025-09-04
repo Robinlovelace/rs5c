@@ -1,114 +1,73 @@
 ---
-title: Reproducible slides with Quarto and continuous deployment via GitHub actions
-subtitle: Demonstration slides
+title: "SUVs and pedestrian safety"
+# subtitle: "an analysis of the impact of SUVs on casualty severity in Great Britain"
 format: 
   revealjs: default
-  # clean-revealjs:
-  #   self-contained: true
-html-math-method:
-  method: mathjax
-  url: "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-author:
-  - name: Your name
+  clean-revealjs:
+    self-contained: true
+author: 
+  - name: Syu-Yu Wang
+    affiliation: Leeds Institute for Transport Studies, University of Leeds, UK
+    orcid: 0009-0001-8321-0438
+  - name: Caroline Tate
+    affiliation: Leeds Institute for Transport Studies, University of Leeds, UK
+    orcid: TBC
+  - name: Eugeni Vidal-Tortosa
+    affiliation: Department of Geography, Autonomous University of Barcelona, Spain
+    orcid: 0000-0001-5199-4103
+  - name: Roger Beecham
+    affiliation: School of Geography, University of Leeds, UK
+    orcid: 0000-0001-8563-7251
+  - name: Steve O'Hern
+    affiliation: Leeds Institute for Transport Studies, University of Leeds, UK
+    orcid: 0000-0002-7961-3875
+  - name: Robin Lovelace
+    affiliation: Leeds Institute for Transport Studies, University of Leeds, UK
     orcid: 0000-0001-5679-6536
-    email: e.mail@leeds.ac.uk
-    affiliations: xyz
-date: last-modified
+execute:
+  cache: true
+  echo: false
+# date: last-modified
 bibliography: references.bib
 ---
 
-# Introduction
 
-## Why make a presentation with Quarto and continuous deployment?
+## Background
 
-- Allows you to test ideas in a standalone environment
-- Sharing materials with collaborators and the audience
-- Continuous deployment automates the process of updating the slides and ensures reproducibility
+- SUVs are a status symbol [@dearman2023] and perceived as safer for occupants [@axsen2022].
+- Global market share grew from 16% in 2010 to 48% in 2023 [@internationalenergyagency2024].
+- In the UK, SUVs were 60% of new car sales in 2023 [@transportenvironment2024].
+- US research shows SUVs increase risk to pedestrians [@henary2003; @ballesteros2004; @paulozzi2005].
+- This study assesses the situation in Great Britain.
 
-## How to get started?
+## Methods
 
-- Check out the [Quarto documentation](https://quarto.org/)
-  - Especially the [Publishing](https://quarto.org/docs/publishing/) section
-- You can use this repository as a template for your own slides, go to https://github.com/Robinlovelace/reproducible-slides-repo-template and clone it
-- Note: the approach here is to publish the slides as part of a Quarto website project so it can be used for other purposes too, e.g. if you want to write a paper building on the slides
+- Data from STATS19 database on traffic casualties in Great Britain (2005-2022).
+- 239 unique SUV models identified.
+- Multinomial logit model used to explore the relationship between risk factors and injury severity.
+- Outcomes: Fatal, Serious, or Slight injury.
 
-## Extensions
+# Results
 
-Add extensions with the following code (which adds the [`clean-revealjs`](https://github.com/grantmcdermott/quarto-revealjs-clean) extension, for example, which has a detailed demo hosted at [github.com/grantmcdermott/quarto-revealjs-clean-demo](https://github.com/grantmcdermott/quarto-revealjs-clean-demo/blob/main/template.qmd)):
+---
 
-```sh
-quarto install extension grantmcdermott/quarto-revealjs-clean
+```{r}
+#| label: fig-counts
+#| fig-cap: "Year-on-year pedestrian crash counts by vehicle type and severity (2005-2022)."
+knitr::include_graphics("fig1.png", error = FALSE)
 ```
 
-Then replace:
+## Model results
 
-```
-format: 
-  revealjs: default
-```
+- Pedestrians hit by SUVs are more likely to be seriously injured (RRR = 1.126) or killed (RRR = 1.204) compared to those hit by non-SUVs.
+- Vehicle mass is also a significant predictor of injury severity.
+- SUV status is a better predictor than vehicle mass, width, or length alone.
 
-with:
+## Discussion and Conclusions
 
-```
-format: 
-  clean-revealjs:
-    self-contained: true
-```
+- The results confirm that SUVs are more dangerous for pedestrians in Great Britain, supporting findings from the USA.
+- This should motivate policy debates on vehicle size and road safety [@singh2024].
+- Supports measures like increased parking fees for large vehicles [@europeancommission2024].
+- Further research is needed on specific vehicle characteristics like bumper height.
 
-In the YAML header of your `.qmd` file.
-
-# Publishing slides (and more)
-
-## Setting-up `gh-pages` branch
-
-You can do this with a single quarto command:
-
-``` sh
-quarto publish gh-pages
-```
-
-Which leads to the following text and eventually auto-opens the deployed webiste!
-
-![](images/paste-4.png)
-
-## The website
-
-The previous command creates a `gh-pages` branch with the slides in the `docs` folder. This is then automatically deployed to GitHub Pages, and the website is opened in your browser when ready:
-
-![](images/paste-5.png)
-
-How awesome is that?
-
-### 🤯🤯🤯
-
-
-## Debugging
-
-Source of `quarto publish gh-pages` hint: [Error message from GitHub Actions](https://github.com/Robinlovelace/reproducible-slides-repo-template/actions/runs/10860601182/job/30141397336#step:4:34) when trying to publish slides to GitHub Pages:
-
-```         
-ERROR: Unable to publish to GitHub Pages (the remote origin does not have a branch named "gh-pages". Use first `quarto publish gh-pages` locally to initialize the remote repository for publishing.)
-```
-
-![](images/paste-3.png)
-
-# Adding citations {background-color="#40666e"}
-
-## With the Quarto extension
-
--   You need to be in Visual Editor mode (Ctrl+Shift+F4)
--   Then it's Ctrl+Shift+F8
-
-![](images/paste-2.png)
-
-Creates citations like this: [@peng2011]
-
-## With "Citation Picker for Zotero" extension
-
--   Issue with this approach: doesn't generate the .bib file
-
-![](images/paste-1.png)
-
-Alt+Shift+Z
-
-# References
+## References
