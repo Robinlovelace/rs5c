@@ -26,8 +26,8 @@ jobs:
       # Install package from DESCRIPTION with remotes::install_local()
       - name: Install R Package
         run: |
-          Rscript -e 'install.packages("remotes")'
-          Rscript -e 'remotes::install_local(dependencies = TRUE)'
+          Rscript -e 'install.packages(c("remotes", "knitr", "rmarkdown"))'
+          Rscript -e '# remotes::install_local(dependencies = TRUE)'
 
       # # If you want to use renv and a lockfile:
       # - name: Install R Dependencies
