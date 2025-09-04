@@ -99,6 +99,14 @@ Relative Risk Ratios (RRR), relative to baseline outcome (slight), are calculate
 
 ![](images/paste-6.png)
 
+## Limitations and Future Research
+
+-   The binary SUV/non-SUV classification oversimplifies diversity of the vehicle fleet.
+-   The STATS19 dataset lacks detailed vehicle design data, such as **bumper height** and front-end shape, which are likely key risk factors.
+-   The study identifies increased risk but cannot fully explain the mechanisms (e.g., are SUV drivers more reckless, or is it purely vehicle design?).
+-   Focus on severity says little about *frequency* of collisions nor *impacts on active travel*/stress/willingness to use active/public modes
+-   Future work should investigate which specific vehicle characteristics are most dangerous, how vehicle characteristics and driver behaviour affect other modes, and explore the role of marketing and driver behavior
+
 ## Discussion and Conclusions
 
 -   The results imply SUVs are more dangerous for pedestrians in Great Britain, supporting findings from the USA.
