@@ -126,6 +126,13 @@
     "text": "In R:\n\ncas_2023 = get_stats19(year = 2023, type = \"cas\")\ntable(cas_2023$casualty_severity)\n\n\n  Fatal Serious  Slight \n   1624   26030  105323 \n\n\n\n\n\n  Fatal Serious  Slight \n    715   12015   46471"
   },
   {
+    "objectID": "slides.html#challenge-reproduce-annual-official-statistical-report-on-road-safety",
+    "href": "slides.html#challenge-reproduce-annual-official-statistical-report-on-road-safety",
+    "title": "SUVs and pedestrian safety",
+    "section": "Challenge: reproduce annual official statistical report on road safety",
+    "text": "Challenge: reproduce annual official statistical report on road safety"
+  },
+  {
     "objectID": "slides.html#plug-data-science-for-transport-planning-course",
     "href": "slides.html#plug-data-science-for-transport-planning-course",
     "title": "SUVs and pedestrian safety",
