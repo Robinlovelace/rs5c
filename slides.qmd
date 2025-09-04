@@ -2,7 +2,7 @@
 title: "SUVs and pedestrian safety"
 # subtitle: "an analysis of the impact of SUVs on casualty severity in Great Britain"
 format: 
-  revealjs: default
+  # revealjs: default
   clean-revealjs:
     self-contained: true
 author: 
