@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "paper.html",
+    "href": "paper.html",
+    "title": "",
+    "section": "",
+    "text": "This is a placeholder for a paper."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Reproducible slides with Quarto and continuous deployment via GitHub actions",
+    "section": "",
+    "text": "The materials here support a talk at the Spatial Data Science across Languages (SDSL) conference 2024.\nSee the slides here and in the dropdown menu above.\nSee the source code at github.com/robinlovelace."
+  },
+  {
+    "objectID": "slides.html#background",
+    "href": "slides.html#background",
+    "title": "SUVs and pedestrian safety",
+    "section": "Background",
+    "text": "Background\n\nSUVs are a status symbol (Dearman et al. 2023) and perceived as safer for occupants (Axsen and Long 2022).\nGlobal market share grew from 16% in 2010 to 48% in 2023 (International Energy Agency 2024).\nIn the UK, SUVs were 60% of new car sales in 2023 (Transport & Environment 2024).\nUS research shows SUVs increase risk to pedestrians (Henary et al. 2003; Ballesteros, Dischinger, and Langenberg 2004; Paulozzi 2005).\nThis study assesses the situation in Great Britain."
+  },
+  {
+    "objectID": "slides.html#methods",
+    "href": "slides.html#methods",
+    "title": "SUVs and pedestrian safety",
+    "section": "Methods",
+    "text": "Methods\n\nData from STATS19 database on traffic casualties in Great Britain (2005-2022).\n239 unique SUV models identified.\nMultinomial logit model used to explore the relationship between risk factors and injury severity.\nOutcomes: Fatal, Serious, or Slight injury."
+  },
+  {
+    "objectID": "slides.html#model-results",
+    "href": "slides.html#model-results",
+    "title": "SUVs and pedestrian safety",
+    "section": "Model results",
+    "text": "Model results\n\nPedestrians hit by SUVs are more likely to be seriously injured (RRR = 1.126) or killed (RRR = 1.204) compared to those hit by non-SUVs.\nVehicle mass is also a significant predictor of injury severity.\nSUV status is a better predictor than vehicle mass, width, or length alone."
+  },
+  {
+    "objectID": "slides.html#discussion-and-conclusions",
+    "href": "slides.html#discussion-and-conclusions",
+    "title": "SUVs and pedestrian safety",
+    "section": "Discussion and Conclusions",
+    "text": "Discussion and Conclusions\n\nThe results confirm that SUVs are more dangerous for pedestrians in Great Britain, supporting findings from the USA.\nThis should motivate policy debates on vehicle size and road safety (Singh 2024).\nSupports measures like increased parking fees for large vehicles (European Commission 2024).\nFurther research is needed on specific vehicle characteristics like bumper height."
+  },
+  {
+    "objectID": "slides.html#references",
+    "href": "slides.html#references",
+    "title": "SUVs and pedestrian safety",
+    "section": "References",
+    "text": "References\n\n\n\n\nAxsen, Jonn, and Zoe Long. 2022. “Sport Utility Vehicles and Willingness-to-Downsize: A Mixed-Method Exploration of Functional, Symbolic, and Societal Consumer Perceptions in Canada.” Energy Research & Social Science 92 (October): 102776. https://doi.org/10.1016/j.erss.2022.102776.\n\n\nBallesteros, Michael F, Patricia C Dischinger, and Patricia Langenberg. 2004. “Pedestrian Injuries and Vehicle Type in Maryland, 19951999.” Accident Analysis & Prevention 36 (1): 73–81. https://doi.org/10.1016/s0001-4575(02)00129-x.\n\n\nDearman, Charles, James Milner, Glenn Stewart, Giovanni S. Leonardi, John Thornes, and Paul Wilkinson. 2023. “Sports Utility Vehicles: A Public Health Model of Their Climate and Air Pollution Impacts in the United Kingdom.” International Journal of Environmental Research and Public Health 20 (11): 6043. https://doi.org/10.3390/ijerph20116043.\n\n\nEuropean Commission. 2024. “Paris Introduces Triple Parking Fees for SUVs - European Commission.” https://urban-mobility-observatory.transport.ec.europa.eu/news-events/news/paris-introduces-triple-parking-fees-suvs-2024-02-12_en.\n\n\nHenary, Basem Y., Jeff Crandall, Kavi Bhalla, Charles N. Mock, and Bahman S. Roudsari. 2003. “Child and Adult Pedestrian Impact: The Influence of Vehicle Type on Injury Severity.” Annual Proceedings / Association for the Advancement of Automotive Medicine 47: 105–26. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3217548/.\n\n\nInternational Energy Agency. 2024. “SUVs Are Setting New Sales Records Each Year  and so Are Their Emissions  Analysis.” https://www.iea.org/commentaries/suvs-are-setting-new-sales-records-each-year-and-so-are-their-emissions.\n\n\nPaulozzi, L J. 2005. “United States Pedestrian Fatality Rates by Vehicle Type.” Injury Prevention 11 (4): 232–36. https://doi.org/10.1136/ip.2005.008284.\n\n\nSingh, Sarwant. 2024. “The Future Of SUVs: A Power-Packed Drive Into Tomorrow.” https://www.forbes.com/sites/sarwantsingh/2024/08/19/the-future-of-suvs-a-power-packed-drive-into-tomorrow/.\n\n\nTransport & Environment. 2024. “UK SUV Sales Have Increased by More Than a Fifth in One Year.” https://www.transportenvironment.org/te-united-kingdom/articles/uk-suv-sales-have-increased-by-more-than-a-fifth-in-one-year."
+  }
+]
